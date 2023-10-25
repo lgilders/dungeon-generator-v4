@@ -40,37 +40,37 @@ function App() {
           <div className="App-display-item">
               <label>Map Height
                 <input className="App-display-input" type="number" name="mapHeight" value={mapHeight}
-                       onChange={e => setMapHeight(e.target.value)}/>
+                       onChange={e => setMapHeight(Number.parseInt(e.target.value))}/>
               </label>
           </div>
           <div className="App-display-item">
               <label>Map Width
                   <input className="App-display-input" type="number" name="mapWidth" value={mapWidth}
-                         onChange={e => setMapWidth(e.target.value)}/>
+                         onChange={e => setMapWidth(Number.parseInt(e.target.value))}/>
               </label>
           </div>
           <div className="App-display-item">
               <label>Partition Minimum Height
                   <input className="App-display-input" type="number" name="minNodeHeight" value={minNodeHeight}
-                         onChange={e => setMinNodeHeight(e.target.value)}/>
+                         onChange={e => setMinNodeHeight(Number.parseInt(e.target.value))}/>
               </label>
           </div>
           <div className="App-display-item">
               <label>Partition Minimum Width
                   <input className="App-display-input" type="number" name="minNodeWidth" value={minNodeWidth}
-                         onChange={e => setMinNodeWidth(e.target.value)}/>
+                         onChange={e => setMinNodeWidth(Number.parseInt(e.target.value))}/>
               </label>
           </div>
           <div className="App-display-item">
               <label>Room Minimum Height
                   <input className="App-display-input" type="number" name="minRoomHeight" value={minRoomHeight}
-                         onChange={e => setMinRoomHeight(e.target.value)}/>
+                         onChange={e => setMinRoomHeight(Number.parseInt(e.target.value))}/>
               </label>
           </div>
           <div className="App-display-item">
               <label>Room Minimum Width
                   <input className="App-display-input" type="number" name="minRoomWidth" value={minRoomWidth}
-                         onChange={e => setMinRoomWidth(e.target.value)}/>
+                         onChange={e => setMinRoomWidth(Number.parseInt(e.target.value))}/>
               </label>
           </div>
           <div className="App-display-item">
