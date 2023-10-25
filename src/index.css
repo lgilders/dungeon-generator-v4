@@ -12,6 +12,11 @@ code {
     monospace;
 }
 
+label {
+  display: block;
+  width: 100%;
+}
+
 li {
   margin-top: -4px;
   font-family: monospace;

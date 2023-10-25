@@ -38,46 +38,40 @@ function App() {
       </header>
       <div className="App-display-options">
           <div className="App-display-item">
-              <label>Map Height
-                <input className="App-display-input" type="number" name="mapHeight" value={mapHeight}
-                       onChange={e => setMapHeight(Number.parseInt(e.target.value))}/>
-              </label>
+              <label>Map Height</label>
+            <input className="App-display-input" type="number" name="mapHeight" value={mapHeight}
+                   onChange={e => setMapHeight(Number.parseInt(e.target.value))}/>
           </div>
           <div className="App-display-item">
-              <label>Map Width
-                  <input className="App-display-input" type="number" name="mapWidth" value={mapWidth}
-                         onChange={e => setMapWidth(Number.parseInt(e.target.value))}/>
-              </label>
+              <label>Map Width</label>
+              <input className="App-display-input" type="number" name="mapWidth" value={mapWidth}
+                     onChange={e => setMapWidth(Number.parseInt(e.target.value))}/>
           </div>
           <div className="App-display-item">
-              <label>Partition Minimum Height
-                  <input className="App-display-input" type="number" name="minNodeHeight" value={minNodeHeight}
-                         onChange={e => setMinNodeHeight(Number.parseInt(e.target.value))}/>
-              </label>
+              <label>Partition Minimum Height</label>
+              <input className="App-display-input" type="number" name="minNodeHeight" value={minNodeHeight}
+                     onChange={e => setMinNodeHeight(Number.parseInt(e.target.value))}/>
           </div>
           <div className="App-display-item">
-              <label>Partition Minimum Width
-                  <input className="App-display-input" type="number" name="minNodeWidth" value={minNodeWidth}
-                         onChange={e => setMinNodeWidth(Number.parseInt(e.target.value))}/>
-              </label>
+              <label>Partition Minimum Width</label>
+              <input className="App-display-input" type="number" name="minNodeWidth" value={minNodeWidth}
+                     onChange={e => setMinNodeWidth(Number.parseInt(e.target.value))}/>
           </div>
           <div className="App-display-item">
-              <label>Room Minimum Height
-                  <input className="App-display-input" type="number" name="minRoomHeight" value={minRoomHeight}
-                         onChange={e => setMinRoomHeight(Number.parseInt(e.target.value))}/>
-              </label>
+              <label>Room Minimum Height</label>
+              <input className="App-display-input" type="number" name="minRoomHeight" value={minRoomHeight}
+                     onChange={e => setMinRoomHeight(Number.parseInt(e.target.value))}/>
           </div>
           <div className="App-display-item">
-              <label>Room Minimum Width
-                  <input className="App-display-input" type="number" name="minRoomWidth" value={minRoomWidth}
-                         onChange={e => setMinRoomWidth(Number.parseInt(e.target.value))}/>
-              </label>
+              <label>Room Minimum Width</label>
+              <input className="App-display-input" type="number" name="minRoomWidth" value={minRoomWidth}
+                     onChange={e => setMinRoomWidth(Number.parseInt(e.target.value))}/>
           </div>
           <div className="App-display-item">
-              <label>Generation Seed
-                  <input className="App-display-input" type="text" name="seed" value={seed}
-                         onChange={e => setSeed(e.target.value)}/>
-              </label>
+              <label>Generation Seed</label>
+              <input className="App-display-input" type="text" name="seed" value={seed}
+                     onChange={e => setSeed(e.target.value)}/>
+
           </div>
           <div className="App-display-button">
               <button onClick={onSubmit}>Generate a Dungeon!</button>
@@ -92,7 +86,7 @@ function App() {
             { tree && <MapDisplay mapData={tree.mapData}></MapDisplay> }
         </div>
       <footer className="App-footer">
-          <p>Created by Lori L. Gildersleeve © 2023</p>
+          <p>Created by Lori L. Gildersleeve ©2023</p>
       </footer>
     </div>
   );
