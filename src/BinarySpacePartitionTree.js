@@ -2,8 +2,8 @@
 // Following algorithm given in Procedural Content Generation in Games
 // (https://www.pcgbook.com/chapter03.pdf)
 
-import { BinaryTree } from '../binaryTree/binaryTree.js'
-import Geometry from './geometryHelper.js'
+import { BinaryTree } from './BinaryTree.js'
+import Geometry from './GeometryHelper.js'
 import rand from 'random-seed'
 
 const BY_QUADRANT = 4

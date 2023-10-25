@@ -3,7 +3,7 @@ const buildMapGeometry = (width, height) => {
 
     for (let x = 0; x < width; x++) {
         const vals = new Array(height)
-        vals.fill(' ', 0)
+        vals.fill('-', 0)
         geometry[x] = vals
     }
 
@@ -35,7 +35,7 @@ const buildRoomData = (mapData, partitionLocation, roomInset, roomDimensions) =>
         for (let y = 0; y < roomDimensions.height; y++) {
             const dX = Math.min(mapData.length - 1, startX + x)
             const dY = Math.min(mapData[0].length - 1, startY + y)
-            mapData[dX][dY] = '-'
+            mapData[dX][dY] = 'X'
         }
     }
 }
@@ -64,14 +64,14 @@ const denoteCorridor = (mapData, pointA, pointB) => {
     // Horizontal!
     if (pointA.x === pointB.x) {
         for (let y = pointA.y; y < pointB.y; y++) {
-            if (mapData[pointA.x][y] === ' ') {
+            if (mapData[pointA.x][y] === '-') {
                 mapData[pointA.x][y] = '*'
             }
         }
         // Vertical!
     } else if (pointA.y == pointB.y ){
         for (let x = pointA.x; x < pointB.x; x++) {
-            if (mapData[x][pointA.y] === ' ') {
+            if (mapData[x][pointA.y] === '-') {
                 mapData[x][pointA.y] = '*'
             }
         }
