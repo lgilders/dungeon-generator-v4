@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 Download the repository via the cmd:
 
-#### `git clone` + SSH repository link
+#### `git clone git@github.com:lgilders/dungeon-generator-v4.git`
 
 In the project directory via terminal, run:
 
@@ -51,3 +51,6 @@ follows the algorithm given in the book [Procedural Content Generation in Games]
 
 The binary tree [implementation](https://www.30secondsofcode.org/js/s/data-structures-binary-tree/) comes from the work of Angelos Chalaris.
 
+### TODO
+
+Convert dungeon display to graphical version using tile sets with controllable orthographic camera.
