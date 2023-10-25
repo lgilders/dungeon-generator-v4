@@ -51,6 +51,8 @@ follows the algorithm given in the book [Procedural Content Generation in Games]
 
 The binary tree [implementation](https://www.30secondsofcode.org/js/s/data-structures-binary-tree/) comes from the work of Angelos Chalaris.
 
-### TODO
+## TODO
+
+Thoroughly cover buildRooms and slicePartitions with unit tests.
 
 Convert dungeon display to graphical version using tile sets with controllable orthographic camera.
