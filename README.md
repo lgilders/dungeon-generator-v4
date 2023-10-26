@@ -2,9 +2,12 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-## Getting Started
+See [live demo](https://lgilders.github.io/) here.
 
-Download the repository via the cmd:
+## Getting Started
+Optionally, if you are on the main repository page, press '.' (period) for in-browser IDE. 
+
+Otherwise, download the repository via the cmd:
 
 #### `git clone git@github.com:lgilders/dungeon-generator-v4.git`
 
