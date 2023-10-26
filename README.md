@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-See [live demo](https://lgilders.github.io/) here.
+See a [live demo](https://lgilders.github.io/) here.
 
 ## Getting Started
 Optionally, if you are on the main repository page, press '.' (period) for in-browser IDE. 
@@ -13,16 +13,16 @@ Otherwise, download the repository via the cmd:
 
 In the project directory via terminal, run:
 
-#### `npm install`
+#### `npm ci`
 
-Runs the installation of the app's dependencies.\
+Runs the installation of the app's dependencies.
 
 #### `npm start`
 
-Runs the app in development mode.\
+Runs the app in development mode.
 Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make code changes.\
+The page will reload when you make code changes.
 You may also see any lint errors in the console.
 
 
